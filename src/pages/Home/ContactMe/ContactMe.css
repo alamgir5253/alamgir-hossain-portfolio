@@ -1,0 +1,43 @@
+.contact-section{
+  background: url(../../../Images/contact.jpg), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+  background-blend-mode: overlay;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center, center;
+  padding: 50px;
+ 
+}
+.address-part{
+margin: auto
+}
+.address{
+  color: #cfd6d7;
+  margin-bottom: 40px;
+}
+.address .contact-icon{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.address h4{
+  color: #00769a;
+}
+
+
+.form-body form input, textarea{
+  display: block;
+  outline: none;
+  width: 100%;
+  padding: 10px 20px;
+  border-bottom: 3px solid #00769a;
+  color: #333
+
+}
+.form-body button{
+  padding: 5px 10px;
+  background: #00769a;
+  color: #fff;
+  margin-top: 10px;
+  text-transform: uppercase
+
+}
