@@ -6,7 +6,7 @@ const Banner = () => {
     <div  className='banner-bg'>
    <div className="banner-body text-center">
    <h1 class="text-2xl md:text-4xl uppercase text-white">i am alamgir hossain</h1>
-    <p className='text-white mt-2'>profetional front-end web developer</p>
+    <p className='text-white mt-2'>professional front-end web developer</p>
     <div className='flex justify-center mt-5 md:mt-10  gap-4 my-4 text-base md:text-2xl items-center'>
     
     <a href="https://www.facebook.com/shondhak/" target='_blank'><FaFacebook className='facebook'/></a>

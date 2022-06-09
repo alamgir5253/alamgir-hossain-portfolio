@@ -40,8 +40,8 @@ const ContactMe = () => {
              <input type="email" placeholder='email ' name='email' />
              <input type="text" placeholder='address' name='address'/>
              <input type="text" placeholder='phone' name='phone' />
-             <textarea type="text" placeholder='massage' name='massage' />
-             <button type='submit'> send massage</button>
+             <textarea type="text" placeholder='message' name='massage' />
+             <button type='submit'> send message</button>
            </form>
           </div>
         </div>
