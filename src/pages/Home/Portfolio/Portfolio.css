@@ -203,9 +203,10 @@
 .portfolio6:hover .portfolio6-text{
   bottom: 0
 }
-.portfolio6-btn{
+.project-btn{
   padding: 5px 15px;
-  margin: 5px  0;
+  margin: 5px  auto;
+  display: block;
   border: 2px solid #014e68;
   border-radius: 30px
 }

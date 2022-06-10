@@ -4,8 +4,9 @@ import './Navbar.css'
 const Navbar = () => {
   const NavItems = <>
   <li><Link className='rounded-md'  to='/'>Home</Link></li>
-  <li><Link className='rounded-md'  to='/Contact Us'>Contact Me</Link></li>
-  <li><Link className='rounded-md'  to='/About'>About</Link></li>
+  <li><Link className='rounded-md'  to='/contact'>Contact Me</Link></li>
+  <li><Link className='rounded-md'  to='/about'>About Me</Link></li>
+  <li><Link className='rounded-md'  to='/blog'>Blog</Link></li>
 
   
 

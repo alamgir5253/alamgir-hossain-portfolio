@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+  "name" : "Bike Parts Co.(full stack project)",
+  "photo": "https://i.ibb.co/fN8qSgH/bike-parts.png",
+  "s_short1": "https://i.ibb.co/whrZsB6/part3.png",
+  "s_short2": "https://i.ibb.co/mtZspHm/part2.png",
+  "s_short3": "https://i.ibb.co/q1TXsJT/part1.png",
+  "b_point1": "Bike Parts Co. is fully responsive in desktop and mobile devices with tailwind css.",
+  "b_point2": "Admin level authorization implemented with (jwt)",
+  "b_point3": "There is a lot of functionality in this website based on authentication(with firebase) and authorization level.",
+  "b_point4": "",
+  "b_point5": "",
+  "Technology": " React js, React-Router-dom, React Query, React Hook Form, TailwindCSS, DaisyUI, NodeJS, ExpressJS, MongoDB, Firebase, Heroku.",
+  "livesite": "https://bike-parts-manufacturers.web.app/",
+  "github_client": "https://github.com/alamgir5253/-parts-manufacturer-client",
+  "github_server": "https://github.com/alamgir5253/parts-manufacturer",
+  "description": "Bike Parts Co. is a fantastic site where you can see a world famous Parts collection. Bike Parts Co. is fully responsive and dynamic."
+
+
+},
+  {
+    "id": 2,
+  "name" : "Dream Auto Warehouse (full stack project)",
+  "photo": "https://i.ibb.co/2YgYTqv/dream-auto.png",
+  "s_short1": "https://i.ibb.co/h2qkP8s/auto1.png",
+  "s_short2": "https://i.ibb.co/bbMVhs1/auto2.png",
+  "s_short3": "https://i.ibb.co/WWyPRdf/auto3.png",
+  "b_point1": "Dream Auto Warehouse is fully responsive in desktop and mobile devices with custom css.",
+  "b_point2": "use the mongodb database to store all data.",
+  "b_point3": "use firebase and react-firebase-hooks to develop authentication system",
+  "b_point4": "",
+  "b_point5": "",
+  "Technology": "React js, React-Router-dom, react icon, NodeJS, ExpressJS, MongoDB,Firebase, Heroku",
+  "livesite": "https://dream-auto-warehouse.web.app/",
+  "github_client": "https://github.com/alamgir5253/warehouse-menagement",
+  "github_server": "https://github.com/alamgir5253/-warehouse-menagement-server",
+  "description": "Dream Auto Warehouse is a fantastic site where you can see and purchase world famous car collections."
+
+
+},
+  {
+    "id": 3,
+  "name" : "Wedding Photographer",
+  "photo": "https://i.ibb.co/6Y27MPH/wedding-photographer.png",
+  "s_short1": "https://i.ibb.co/mNNjfLt/photo1.png",
+  "s_short2": "https://i.ibb.co/1GZQSCc/photo2.png",
+  "s_short3": "https://i.ibb.co/LxDGXZz/photo.png",
+  "b_point1": "use firebase and react-firebase-hooks to develop authentication system",
+  "b_point2": "home page including banner, services, packages, footer",
+  "b_point3": "dynamic route implemented very nicely in this project",
+  "b_point4": "",
+  "b_point5": "",
+  "Technology": "React js, React-Router-dom, react toast, react bootstrap, Firebase react icon, etc.",
+  "livesite": "https://wedding-photographer-3d9e5.firebaseapp.com/",
+  "github_client": "https://github.com/alamgir5253/wedding-photographer",
+  "github_server": "",
+  "description": "Wedding photographers are fully responsive on desktop and mobile devices with custom css and bootstrap ."
+
+
+},
+  {
+    "id": 4,
+  "name" : "Event Planner",
+  "photo": "https://i.ibb.co/QDqJ2DC/event.jpg",
+  "s_short1": "https://i.ibb.co/Fw7ydfm/event.png",
+  "s_short2": "https://i.ibb.co/NYXp2jx/event2.png",
+  "s_short3": "https://i.ibb.co/cyn197w/event3.png",
+  "b_point1": "use html to build website structure",
+  "b_point2": "use custom css and bootstrap to style",
+  "b_point3": "use bootstrap carousel to make slider",
+  "b_point4": " use bootstrap toast in this project",
+  "b_point5": "",
+  "livesite": "https://elegant-sammet-2cf0a0.netlify.app/",
+  "github_client": "https://github.com/alamgir5253/convention-hall",
+  "github_server": "",
+  "description": "Event Planner are fully responsive on desktop and mobile devices with custom css and bootstrap"
+
+
+},
+  {
+    "id": 5,
+  "name" : "panda project",
+  "photo": "https://i.ibb.co/Xj8vdc0/panda.png",
+  "s_short1": "https://i.ibb.co/SvL4VX0/panda1.png",
+  "s_short2": "https://i.ibb.co/p6Tys9C/panda2.png",
+  "s_short3": "https://i.ibb.co/XsgRwyW/panda3.png",
+  "b_point1": "use html to build website structure",
+  "b_point2": "use custom css and bootstrap to style",
+  "b_point3": "use bootstrap carousel to make slider",
+  "b_point4": "",
+  "b_point5": "",
+  "livesite": "https://panda-project-5253.netlify.app/",
+  "github_client": "https://github.com/alamgir5253/panda-project",
+  "github_server": "",
+  "description": "panda project are fully responsive on desktop and mobile devices with custom css and bootstrap"
+
+
+}
+
+
+
+
+
+]

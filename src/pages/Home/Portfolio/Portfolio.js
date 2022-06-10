@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Project from '../Project/Project';
 import './Portfolio.css'
-import bikeparts from '../../../Images/bike parts.png'
 const Portfolio = () => {
+  const [projects, setProjects] = useState([])
+  useEffect(()=>{
+    fetch('http://localhost:5000/projects')
+    .then(res =>res.json())
+    .then(data =>setProjects(data))
+  },[])
+
   return (
     <section className='portfolio-section'>
       <div className='text-center mt-10 md:mt-20'>
@@ -11,6 +18,30 @@ const Portfolio = () => {
       </div>
 
       <div className="all-portfolio grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {
+          projects.map(project => <Project
+            key={project._id}
+            project={project}
+            
+            />)
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* 
         <div className="portfolio">
           <div className='portfolio-text'>
             <h4>bike parts co.</h4>
@@ -46,7 +77,7 @@ const Portfolio = () => {
             <h4>MEGA PHONE FAIR</h4>
             <button className='portfolio6-btn'>see details</button>
           </div>
-        </div>
+        </div>  */}
         
 
 
