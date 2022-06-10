@@ -4,7 +4,7 @@ import './Portfolio.css'
 const Portfolio = () => {
   const [projects, setProjects] = useState([])
   useEffect(()=>{
-    fetch('http://localhost:5000/projects')
+    fetch('https://mysterious-taiga-28523.herokuapp.com/projects')
     .then(res =>res.json())
     .then(data =>setProjects(data))
   },[])
