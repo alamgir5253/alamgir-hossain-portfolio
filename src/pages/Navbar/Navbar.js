@@ -12,7 +12,7 @@ const Navbar = () => {
 
   </>
   return (
-    <div class="navbar navbar-bg bg-base-100 text-white">
+    <div class="navbar  navbar-bg bg-base-100 text-white">
   
   
     <div class="dropdown">
@@ -25,7 +25,7 @@ const Navbar = () => {
       </ul>
     </div>
     <a class="btn btn-ghost normal-case mr-auto text-xl">Alamgir Hossain</a>
-  <div class=" navbar-end hidden lg:flex">
+  <div class=" navbar-end  hidden lg:flex">
     <ul class="menu  menu-horizontal p-0">
     {NavItems}
     </ul>
