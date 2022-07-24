@@ -7,6 +7,9 @@
   padding: 50px;
  
 }
+.contact-title{
+  font-family: 'Arima', cursive;
+}
 .address-part{
 margin: auto
 }
@@ -22,8 +25,6 @@ margin: auto
 .address h4{
   color: #00769a;
 }
-
-
 .form-body form input, textarea{
   display: block;
   outline: none;
@@ -31,7 +32,6 @@ margin: auto
   padding: 10px 20px;
   border-bottom: 3px solid #00769a;
   color: #333
-
 }
 .form-body button{
   padding: 5px 10px;
@@ -39,5 +39,4 @@ margin: auto
   color: #fff;
   margin-top: 10px;
   text-transform: uppercase
-
 }

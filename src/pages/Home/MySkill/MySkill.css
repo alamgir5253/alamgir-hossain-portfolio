@@ -1,0 +1,28 @@
+.skill-title{
+  font-family: 'Arima', cursive;
+
+
+}
+
+.skill{
+  margin: 0 auto;
+  text-align: center;
+   box-shadow: .2rem .2rem .5rem .2rem  #333;
+   padding: 1rem 7rem;
+   border-radius: .5rem;
+   width: 100%;
+   transition:.3s ease-in-out;
+   background: #000;
+   font-family: 'Roboto', sans-serif;
+}
+.skill:hover{
+transform: translateY(-.5rem);
+
+
+}
+
+.skill img{
+  width: 5rem;
+  margin: auto;
+  
+}

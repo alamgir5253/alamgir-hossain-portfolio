@@ -7,15 +7,23 @@
   background-attachment: fixed;
   position: relative;
 }
+.banner-title{
+  font-family: 'Oswald', sans-serif;
+  word-spacing: 2px;
+
+
+}
 .banner-body{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
+  
+  
   
 }
-.facebook{
-  border: 2px solid #00769a;
+.facebook,.Linkedin,.Github{
+ border: 2px solid #00769a;
  height: 50px;
  width: 50px;
   background:transparent;
@@ -25,8 +33,17 @@
  align-items: center;
  font-size: 20px;
  color: #00769a;
- padding: 10px
+ padding: 10px;
+ transition: .3s;
 }
+.facebook:hover,.Linkedin:hover,.Github:hover{
+  transform: rotate(360deg);
+  background: #fff;
+
+
+  
+}
+
 .banner-btn{
   padding: 10px 20px;
   color: #00769a;
@@ -34,5 +51,11 @@
   border: 2px solid #00769a;
   text-transform: uppercase;
   margin-top: 50px;
-  display: inline-block
+  display: inline-block;
+  transition: .3s ease-in-out;
+}
+.banner-btn:hover{
+letter-spacing: 2px;
+background: #fff;
+color: black
 }

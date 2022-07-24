@@ -7,9 +7,11 @@ import ContactMe from './pages/Home/ContactMe/ContactMe';
 import Home from './pages/Home/Home';
 import ProjectDetails from './pages/ProjectDetails';
 import Navbar from './pages/Navbar/Navbar';
+import Particlesbg from './pages/Particlesbg';
 function App() {
   return (
     <div className="App">
+{/* <Particlesbg></Particlesbg> */}
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />}></Route>

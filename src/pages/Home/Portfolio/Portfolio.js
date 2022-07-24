@@ -12,8 +12,8 @@ const Portfolio = () => {
   return (
     <section className='portfolio-section'>
       <div className='text-center mt-10 md:mt-20'>
-      <h2 className='text-2xl uppercase md:text-4xl'>my portfolio</h2>
-      <p className='text-2xl'>Some of my most recent projects</p>
+      <h2 className='text-2xl portfolio-title primaryColor uppercase md:text-4xl'>my portfolio</h2>
+      <p className='text-xl primaryColor'>Some of my most recent projects</p>
       <div className='underline'></div>
       </div>
 
